@@ -67,7 +67,7 @@ CLASS zcl_lock_obj_univ_0631 IMPLEMENTATION.
                              last_name    = 'Perez'
                              course_code  = 'AA' ).
 
-    WAIT UP TO 10 SECONDS.
+    WAIT UP TO 30 SECONDS.
 
     MODIFY zuniversity_0631 FROM @ls_university.
 
